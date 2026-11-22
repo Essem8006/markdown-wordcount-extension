@@ -3,7 +3,7 @@
   "displayName": "Markdown Wordcount Extension",
   "description": "A simple way to count all uncommented words in a markdown document.",
   "publisher": "SamMain",
-  "repository": {"type": "git", "url": "https://github.com/essem8006/usfm-validator.git"},
+  "repository": {"type": "git", "url": "https://github.com/essem8006/markdown-wordcount-extension.git"},
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.146.0"
