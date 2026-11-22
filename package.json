@@ -4,14 +4,16 @@
   "description": "A simple way to count all uncommented words in a markdown document.",
   "publisher": "SamMain",
   "repository": {"type": "git", "url": "https://github.com/essem8006/markdown-wordcount-extension.git"},
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.146.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
